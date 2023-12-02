@@ -7,7 +7,6 @@ public class CalculatorController {
 
     private final CalculatorService calculatorService;
 
-    @Autowired
     public CalculatorController(CalculatorService calculatorService) {
         this.calculatorService = calculatorService;
     }
